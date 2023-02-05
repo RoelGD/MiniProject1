@@ -1,0 +1,130 @@
+.container{
+  width: 100%;
+  height: 1672px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.container_1 {
+  width: 109px;
+  height: 112px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 33px;
+  left: 129px;
+  border-radius: 50%;
+}
+.logo_title{
+  width: 168px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 64px;
+  left: 247px;
+  font-family: Rubik One;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.nav_home{
+  width: 58px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 66px;
+  left: 921px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+.nav_logOut{
+  width: 107px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 99px;
+  left: 1049px;
+  font-family: Roboto;
+  font-weight: SemiBold;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+}
+.nav_aboutUs{
+  width: 107px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 66px;
+  left: 995px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+.nav_siteMap{
+  width: 98px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 66px;
+  left: 1102px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+.nav_contactUs{
+  width: 133px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 66px;
+  left: 1200px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+.logo{
+  width: 123px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 16px;
+  left: 127px;
+  font-family: Rockwell;
+  font-weight: Bold;
+  font-size: 123px;
+  opacity: 1;
+  text-align: center;
+}
+.container3{
+  width: 100%;
+  height: 121px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 1551px;
+  left: 0px;
+  overflow: hidden;
+}
+.footer1{
+  width: 568px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 1604px;
+  left: 436px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
