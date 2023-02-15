@@ -135,6 +135,19 @@ width: 100%;
   text-decoration: none;
 }
 
+.nav_logOut{
+  width: 107px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 99px;
+  left: 1049px;
+  font-family: Roboto;
+  font-weight: SemiBold;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+
+}
 .main_container2 {
   display: block;
   width: 100%;
@@ -368,3 +381,6 @@ width: 100%;
   opacity: 1;
   text-align: left;
 }
+
+/* -------------------*/
+
