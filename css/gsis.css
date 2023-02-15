@@ -1,0 +1,519 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.mother_container_agencyv51_2 {
+  width: 100%;
+  height: 1672px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+/*.v51_3 {
+  width: 109px;
+  height: 112px;
+  background: rgb(217, 34, 49);
+  opacity: 1;
+  position: absolute;
+  top: 33px;
+  left: 129px;
+  border-radius: 50%;
+} 
+.v51_4 {
+  width: 168px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 64px;
+  left: 247px;
+  font-family: Rubik One;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.v51_5 {
+  width: 58px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 66px;
+  left: 519px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v51_6 {
+  width: 107px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 99px;
+  left: 391px;
+  font-family: Roboto;
+  font-weight: SemiBold;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+}
+.v51_7 {
+  width: 107px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 66px;
+  left: 445px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v51_8 {
+  width: 98px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 66px;
+  left: 338px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v51_9 {
+  width: 133px;
+  color: rgb(217, 34, 74);
+  position: absolute;
+  top: 66px;
+  left: 240px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v51_10 {
+  width: 123px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 16px;
+  left: 127px;
+  font-family: Rockwell;
+  font-weight: Bold;
+  font-size: 123px;
+  opacity: 1;
+  text-align: center;
+}
+.v51_11 {
+  width: 100%;
+  height: 121px;
+  background: rgb(59, 6, 6);
+  opacity: 1;
+  position: absolute;
+  top: 1551px;
+  left: 0px;
+  overflow: hidden;
+}
+.v51_12 {
+  width: 568px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 1604px;
+  left: 436px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}*/
+.container1_agency {
+  width: 100%;
+  height: 226px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 178px;
+  left: 0px;
+  overflow: hidden;
+}
+.container2_agency {
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 390px;
+  left: 0px;
+  overflow: hidden;
+}
+.account_holder {
+  width: 335px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 194px;
+  left: 290px;
+  font-family: Inter;
+  font-weight: Extra Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.bp_numbox{
+ 
+  width: 226px;
+  height: 26px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 266px;
+  left: 529px;
+  overflow: hidden;
+}
+.menu_box2 {
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 546px;
+  left: 100px;
+  overflow: hidden;
+}
+.home_menu {
+  width: 123px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 566px;
+  left: 189px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.output_agency {
+  width: 925px;
+  height: 485px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 485px;
+  left: 415px;
+  overflow: hidden;
+}
+.member_profilebox {
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 607px;
+  left: 100px;
+  overflow: hidden;
+}
+.loan_recordbox {
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 669px;
+  left: 100px;
+  overflow: hidden;
+}
+.loan_tentativebox{
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 914px;
+  left: 100px;
+  overflow: hidden;
+}
+.account_menubox {
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 485px;
+  left: 100px;
+  overflow: hidden;
+}
+.claim_recordbox {
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 730px;
+  left: 100px;
+  overflow: hidden;
+}
+.pension_recordbox {
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 791px;
+  left: 100px;
+  overflow: hidden;
+}
+.tentative_claimbox {
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 853px;
+  left: 100px;
+  overflow: hidden;
+}
+.crn_numbox {
+  width: 226px;
+  height: 26px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 304px;
+  left: 529px;
+  overflow: hidden;
+}
+.birthdate_numbox {
+  width: 226px;
+  height: 26px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 342px;
+  left: 529px;
+  overflow: hidden;
+}
+.agency_namebox {
+  width: 351px;
+  height: 26px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 347px;
+  left: 425px;
+  overflow: hidden;
+}
+.contact_numbox {
+  width: 351px;
+  height: 26px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 271px;
+  left: 425px;
+  overflow: hidden;
+}
+.email_addbox {
+  width: 351px;
+  height: 26px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 309px;
+  left: 425px;
+  overflow: hidden;
+}
+.agency_logo_box {
+  width: 238px;
+  height: 209px;
+  background: url("../images/v51_22.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 187px;
+  left: 31px;
+  overflow: hidden;
+}
+.bp_number {
+  width: 149px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 265px;
+  left: 331px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.crn_number {
+  width: 192px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 305px;
+  left: 328px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.birth_date {
+  width: 182px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 341px;
+  left: 331px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.contact_number {
+  width: 175px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 270px;
+  left: 600px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.email_add {
+  width: 175px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 310px;
+  left: 600px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.agency_name {
+  width: 175px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 346px;
+  left: 600px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.member_profile {
+  width: 189px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 623px;
+  left: 165px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.loan_record {
+  width: 160px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 688px;
+  left: 174px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.claim_record {
+  width: 168px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 743px;
+  left: 171px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.pension_record {
+  width: 202px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 804px;
+  left: 152px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.tentative_claim {
+  width: 202px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 867px;
+  left: 152px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.loan_tentative {
+  width: 202px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 929px;
+  left: 152px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.account_menu {
+  width: 123px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 498px;
+  left: 185px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.save_filebox {
+  width: 170px;
+  height: 52px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 982px;
+  left: 279px;
+  border: 1px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.save_file {
+  width: 150px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 997px;
+  left: 269px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
