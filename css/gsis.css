@@ -29,6 +29,7 @@ width: 100%;
   top: 33px;
   left: 129px;
   border-radius: 50%;
+  
 }
 .logo_title_derion {
   width: 168px;
@@ -66,6 +67,7 @@ width: 100%;
   opacity: 1;
   text-align: center;
   text-decoration: none;
+ 
 }
 /*.38_3*/
 .nav_signin{
@@ -397,122 +399,7 @@ width: 100%;
   left: 0px;
   overflow: hidden;
 }
-/*.v51_3 {
-  width: 109px;
-  height: 112px;
-  background: rgb(217, 34, 49);
-  opacity: 1;
-  position: absolute;
-  top: 33px;
-  left: 129px;
-  border-radius: 50%;
-} 
-.v51_4 {
-  width: 168px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 64px;
-  left: 247px;
-  font-family: Rubik One;
-  font-weight: Regular;
-  font-size: 40px;
-  opacity: 1;
-  text-align: center;
-}
-.v51_5 {
-  width: 58px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 66px;
-  left: 519px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v51_6 {
-  width: 107px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 99px;
-  left: 391px;
-  font-family: Roboto;
-  font-weight: SemiBold;
-  font-size: 17px;
-  opacity: 1;
-  text-align: center;
-}
-.v51_7 {
-  width: 107px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 66px;
-  left: 445px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v51_8 {
-  width: 98px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 66px;
-  left: 338px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v51_9 {
-  width: 133px;
-  color: rgb(217, 34, 74);
-  position: absolute;
-  top: 66px;
-  left: 240px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v51_10 {
-  width: 123px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 16px;
-  left: 127px;
-  font-family: Rockwell;
-  font-weight: Bold;
-  font-size: 123px;
-  opacity: 1;
-  text-align: center;
-}
-.v51_11 {
-  width: 100%;
-  height: 121px;
-  background: rgb(59, 6, 6);
-  opacity: 1;
-  position: absolute;
-  top: 1551px;
-  left: 0px;
-  overflow: hidden;
-}
-.v51_12 {
-  width: 568px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 1604px;
-  left: 436px;
-  font-family: Inter;
-  font-weight: Bold;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}*/
+
 .container1_agency {
   display: flex;
   width: 100%;
@@ -543,194 +430,95 @@ width: 100%;
   top: 194px;
   left: 290px;
   font-family: Inter;
-  font-weight: Extra Bold;
+  font-weight: bolder;
   font-size: 36px;
   opacity: 1;
   text-align: left;
 }
 .bp_numbox{
   display: block;
-  width: 226px;
+  width: 200px;
   height: 26px;
   background: rgba(217,217,217,1);
   opacity: 1;
   position: absolute; 
   top: 266px;
-  left: 529px;
+  left: 510px;
   overflow: hidden;
 }
-.menu_box2 {
-  display: flex;
-  width: 295px;
-  height: 56px;
-  background: rgba(34,63,217,1);
-  opacity: 1;
-  position: absolute; 
-  top: 546px;
-  left: 100px;
-  overflow: hidden;
-}
-.home_menu {
-  display: flex;
-  width: 123px;
-  color: rgba(255,255,255,1);
- 
-  top: 566px;
-  left: 189px;
-  font-family: Inter;
-  font-weight: Semi Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
+
 .output_agency {
   display: block;
-  width: 925px;
+  width: 975px;
   height: 485px;
-  background: rgba(217,217,217,1);
+  background: rgb(165, 159, 159);
   opacity: 1;
-  position: absolute; 
+  position: absolute;
   top: 485px;
   left: 415px;
   overflow: hidden;
 }
-.member_profilebox {
-  display: block;
-  width: 295px;
-  height: 56px;
-  background: rgba(34,63,217,1);
-  opacity: 1;
-  position: absolute; 
-  top: 607px;
-  left: 100px;
-  overflow: hidden;
-}
-.loan_recordbox {
-  display: block;
-  width: 295px;
-  height: 56px;
-  background: rgba(34,63,217,1);
-  opacity: 1;
-  position: absolute; 
-  top: 669px;
-  left: 100px;
-  overflow: hidden;
-}
-.loan_tentativebox{
-  display: block;
-  width: 295px;
-  height: 56px;
-  background: rgba(34,63,217,1);
-  opacity: 1;
-  position: absolute; 
-  top: 914px;
-  left: 100px;
-  overflow: hidden;
-}
-.account_menubox {
-  display: block;
-  width: 295px;
-  height: 56px;
-  background: rgba(34,63,217,1);
-  opacity: 1;
-  position: absolute; 
-  top: 485px;
-  left: 100px;
-  overflow: hidden;
-}
-.claim_recordbox {
-  display: block;
-  width: 295px;
-  height: 56px;
-  background: rgba(34,63,217,1);
-  opacity: 1;
-  position: absolute; 
-  top: 730px;
-  left: 100px;
-  overflow: hidden;
-}
-.pension_recordbox {
-  display: block;
-  width: 295px;
-  height: 56px;
-  background: rgba(34,63,217,1);
-  opacity: 1;
-  position: absolute; 
-  top: 791px;
-  left: 100px;
-  overflow: hidden;
-}
-.tentative_claimbox {
-  display: block;
-  width: 295px;
-  height: 56px;
-  background: rgba(34,63,217,1);
-  opacity: 1;
-  position: absolute; 
-  top: 853px;
-  left: 100px;
-  overflow: hidden;
-}
+
 .crn_numbox {
   display: block;
-  width: 226px;
+  width: 200px;
   height: 26px;
   background: rgba(217,217,217,1);
   opacity: 1;
   position: absolute; 
   top: 304px;
-  left: 529px;
+  left: 510px;
   overflow: hidden;
 }
 .birthdate_numbox {
   display: block;
-  width: 226px;
+  width: 200px;
   height: 26px;
   background: rgba(217,217,217,1);
   opacity: 1;
   position: absolute; 
   top: 342px;
-  left: 529px;
+  left: 510px;
   overflow: hidden;
 }
 .agency_namebox {
   display: block;
-  width: 351px;
+  width: 350px;
   height: 26px;
   background: rgba(217,217,217,1);
   opacity: 1;
   position: absolute; 
   top: 347px;
-  left: 425px;
+  left: 920px;
   overflow: hidden;
 }
 .contact_numbox {
-  display: block;
-  width: 351px;
+  
+  width: 350px;
   height: 26px;
   background: rgba(217,217,217,1);
   opacity: 1;
   position: absolute; 
   top: 271px;
-  left: 425px;
+  left: 920px;
   overflow: hidden;
 }
 .email_addbox {
   display: block;
-  width: 351px;
+  width: 350px;
   height: 26px;
   background: rgba(217,217,217,1);
   opacity: 1;
   position: absolute; 
   top: 309px;
-  left: 425px;
+  left: 920px;
   overflow: hidden;
 }
 .agency_logo_box {
-  display: block;
+  display:flex;
   width: 238px;
   height: 209px;
-  background: url("../images/v51_22.png");
+  background: url("../images/v34_3.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -746,7 +534,7 @@ width: 100%;
   color: rgba(255,255,255,1);
   position: absolute; 
   top: 265px;
-  left: 331px;
+  left: 320px;
   font-family: Inter;
   font-weight: Semi Bold;
   font-size: 20px;
@@ -759,7 +547,7 @@ width: 100%;
   color: rgba(255,255,255,1);
   position: absolute; 
   top: 305px;
-  left: 328px;
+  left: 320px;
   font-family: Inter;
   font-weight: Semi Bold;
   font-size: 20px;
@@ -772,7 +560,7 @@ width: 100%;
   color: rgba(255,255,255,1);
   position: absolute; 
   top: 341px;
-  left: 331px;
+  left: 320px;
   font-family: Inter;
   font-weight: Semi Bold;
   font-size: 20px;
@@ -785,7 +573,7 @@ width: 100%;
   color: rgba(255,255,255,1);
   position: absolute; 
   top: 270px;
-  left: 600px;
+  left: 755px;
   font-family: Inter;
   font-weight: Semi Bold;
   font-size: 20px;
@@ -798,7 +586,7 @@ width: 100%;
   color: rgba(255,255,255,1);
   position: absolute; 
   top: 310px;
-  left: 600px;
+  left: 755px;
   font-family: Inter;
   font-weight: Semi Bold;
   font-size: 20px;
@@ -811,95 +599,18 @@ width: 100%;
   color: rgba(255,255,255,1);
   position: absolute; 
   top: 346px;
-  left: 600px;
+  left: 755px;
   font-family: Inter;
   font-weight: Semi Bold;
   font-size: 20px;
   opacity: 1;
   text-align: left;
 }
-.member_profile {
-  display: block;
-  width: 189px;
-  color: rgba(255,255,255,1);
- 
-  top: 623px;
-  left: 165px;
-  font-family: Inter;
-  font-weight: Semi Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.loan_record {
-  display: block;
-  width: 160px;
-  color: rgba(255,255,255,1);
-  
-  top: 688px;
-  left: 174px;
-  font-family: Inter;
-  font-weight: Semi Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.claim_record {
-  display: block;
-  width: 168px;
-  color: rgba(255,255,255,1);
-  
-  top: 743px;
-  left: 171px;
-  font-family: Inter;
-  font-weight: Semi Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.pension_record {
-  display: block;
-  width: 202px;
-  color: rgba(255,255,255,1);
-  
-  top: 804px;
-  left: 152px;
-  font-family: Inter;
-  font-weight: Semi Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.tentative_claim {
-  display: block;
-  width: 202px;
-  color: rgba(255,255,255,1);
-  
-  top: 867px;
-  left: 152px;
-  font-family: Inter;
-  font-weight: Semi Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.loan_tentative {
-  display: block;
-  width: 202px;
-  color: rgba(255,255,255,1);
-  top: 929px;
-  left: 152px;
-  font-family: Inter;
-  font-weight: Semi Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
 .account_menu {
-  display: block;
-  width: 123px;
+  display: flex;
+  width: 100%;
   color: rgba(255,255,255,1);
-
+  background: rgba(34,63,217,1);
   top: 498px;
   left: 185px;
   font-family: Inter;
@@ -907,28 +618,264 @@ width: 100%;
   font-size: 20px;
   opacity: 1;
   text-align: center;
+  margin: auto;
+  justify-content: center;
+  padding-top: 3%;
+  width: 95%;
+  height: 80%;
+  cursor: pointer;
 }
+.account_home {
+  display: flex;
+  color: rgba(255,255,255,1);
+  top: 566px;
+  left: 189px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  background: rgba(34,63,217,1);
+  margin: auto;
+  justify-content: center;
+  padding-top: 3%;
+  width: 95%;
+  height: 80%;
+  cursor: pointer;
+}
+.member_profile {
+  display: flex;
+  color: rgba(255,255,255,1);
+  top: 623px;
+  left: 165px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  background: rgba(34,63,217,1);
+  margin: auto;
+  justify-content: center;
+  padding-top: 3%;
+  width: 95%;
+  height: 80%;
+  cursor: pointer;
+}
+.loan_record {
+  display: flex;
+  color: rgba(255,255,255,1);
+  top: 688px;
+  left: 174px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  background: rgba(34,63,217,1);
+  margin: auto;
+  justify-content: center;
+  padding-top: 3%;
+  width: 95%;
+  height: 80%;
+  cursor: pointer;
+}
+.claim_record {
+  display: flex;
+  color: rgba(255,255,255,1);
+  top: 743px;
+  left: 171px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  background: rgba(34,63,217,1);
+  margin: auto;
+  justify-content: center;
+  padding-top: 3%;
+  width: 95%;
+  height: 80%;
+  cursor: pointer;
+}
+.pension_record {
+  display: flex;
+  color: rgba(255,255,255,1);
+  top: 804px;
+  left: 152px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  background: rgba(34,63,217,1);
+  margin: auto;
+  justify-content: center;
+  padding-top: 3%;
+  width: 95%;
+  height: 80%;
+  cursor: pointer;
+}
+.tentative_claim {
+  display: flex;
+  color: rgba(255,255,255,1);
+  top: 867px;
+  left: 152px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  justify-content: center;
+  background: rgba(34,63,217,1);
+  border: 1px solid rgb(32, 5, 7);
+  margin: auto;
+  padding-top: 3%;
+  width: 95%;
+  height: 80%;
+  cursor: pointer;
+}
+.loan_tentative {
+  display: flex;
+  color: rgba(255,255,255,1);
+  top: 929px;
+  left: 152px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 20px;
+  opacity: 1;
+  background: rgba(34,63,217,1);
+  justify-content: center;
+  border: 1px solid rgb(32, 5, 7);
+  margin: auto;
+  padding-top: 3%;
+  width: 95%;
+  height: 80%;
+  cursor: pointer;
+}
+.account_menubox {
+  display: flex;
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute; 
+  top: 485px;
+  left: 100px;
+  overflow: hidden;
+}
+.account_homebox {
+  display: flex;
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute; 
+  top: 546px;
+  left: 100px;
+  overflow: hidden;
+  justify-content: center;
+  
+}
+.claim_recordbox {
+  display: flex;
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute; 
+  top: 730px;
+  left: 100px;
+  overflow: hidden;
+}
+.pension_recordbox {
+  display: flex;
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute; 
+  top: 791px;
+  left: 100px;
+  overflow: hidden;
+}
+.tentative_claimbox {
+  display: flex;
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute; 
+  top: 853px;
+  left: 100px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.member_profilebox {
+  display: flex;
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute; 
+  top: 607px;
+  left: 100px;
+  overflow: hidden;
+  justify-content: center;
+}
+.loan_recordbox {
+  display: flex;
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute; 
+  top: 669px;
+  left: 100px;
+  overflow: hidden;
+}
+.loan_tentativebox{
+  display: flex;
+  width: 295px;
+  height: 56px;
+  background: rgba(34,63,217,1);
+  opacity: 1;
+  position: absolute; 
+  top: 914px;
+  left: 100px;
+  overflow: hidden;
+  justify-content: center;
+  
+}
+
 .save_filebox {
-  display: block;
+  display: flex;
   width: 170px;
   height: 52px;
   background: rgba(34,63,217,1);
   opacity: 1;
   position: absolute; 
   top: 982px;
-  left: 279px;
-  border: 1px solid rgba(0,0,0,1);
+  left: 1199px;
+  border: none;
   overflow: hidden;
+  justify-content: center;
+  padding: auto;
 }
 .save_file {
   display: block;
-  width: 150px;
+  width: 90%;
+  height: 80%;
   color: rgba(255,255,255,1); 
   top: 997px;
-  left: 269px;
+  left: 1189px;
   font-family: Inter;
   font-weight: Semi Bold;
   font-size: 20px;
   opacity: 1;
+  background: rgba(34,63,217,1);
+  border: 1px solid rgb(32, 5, 7);
+  margin: auto;
   text-align: center;
+  cursor: pointer;
 }
