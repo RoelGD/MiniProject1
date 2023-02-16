@@ -214,8 +214,7 @@ width: 100%;
   text-align: center;
 }
 .main_click_box1 {
-  width: 231px;
-  height: 59px;
+
   background: rgba(217,217,217,1);
   opacity: 1;
   position: absolute;
@@ -226,6 +225,7 @@ width: 100%;
 .main_click_here1 {
   width: 182px;
   color: rgba(39,22,241,1);
+  background: rgba(217,217,217,1);
   position: absolute;
   top: 673px;
   left: 633px;
@@ -234,6 +234,7 @@ width: 100%;
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  text-decoration: none;
 }
 .main_container5 {
   display: block;
@@ -272,9 +273,7 @@ width: 100%;
   
 }
 .main_click_box2 {
-  width: 231px;
-  height: 59px;
-  background: rgba(217,217,217,1);
+  background: rgba(39,22,241,1);
   opacity: 1;
   position: absolute;
   top: 1216px;
@@ -284,6 +283,7 @@ width: 100%;
 .main_click_here2 {
   width: 182px;
   color: rgba(39,22,241,1);
+  background: rgba(217,217,217,1);
   position: absolute;
   top: 1233px;
   left: 629px;
@@ -292,8 +292,10 @@ width: 100%;
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  text-decoration: none;
 }
 .agency_sss {
+  display: flex;
   width: 295px;
   height: 194px;
   background: url("../images/v34_2.png");
@@ -305,8 +307,11 @@ width: 100%;
   top: 770px;
   left: 101px;
   overflow: hidden;
+  justify-content: center;
+  
 }
 .agency_gsis {
+  display: flex;
   width: 295px;
   height: 194px;
   background: url("../images/v34_3.png");
@@ -318,8 +323,10 @@ width: 100%;
   top: 770px;
   left: 415px;
   overflow: hidden;
+  justify-content: center;
 }
 .agency_phealth {
+  display: flex;
   width: 295px;
   height: 194px;
   background: url("../images/v34_4.png");
@@ -331,8 +338,10 @@ width: 100%;
   top: 770px;
   left: 729px;
   overflow: hidden;
+  justify-content: center;
 }
 .agency_pagibig {
+  display: flex;
   width: 295px;
   height: 194px;
   background: url("../images/v34_5.png");
@@ -344,6 +353,8 @@ width: 100%;
   top: 770px;
   left: 1043px;
   overflow: hidden;
+  justify-content: center;
+ 
 }
 .main_footer{
   width: 100%;
@@ -382,5 +393,58 @@ width: 100%;
   text-align: left;
 }
 
-/* -------------------*/
+.sss_btn  {
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 35px;
+  background-color: rgba(39,22,241,1);
+  cursor: pointer; 
+  text-decoration: none;
+  opacity: 0.5;
+
+}
+
+.gsis_btn {
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 35px;
+  background-color: rgba(39,22,241,1);
+  cursor: pointer; 
+  text-decoration: none;
+  opacity: 0.5;
+
+}
+
+.phealth_btn {
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 35px;
+  background-color: rgba(39,22,241,1);
+  cursor: pointer; 
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.pagibig_btn {
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 35px;
+  background-color: rgba(39,22,241,1);
+  cursor: pointer; 
+  text-decoration: none;
+  opacity: 0.5;
+}
+/* -------- UP--MAIN INDEX.CSS FILE -----------*/
 

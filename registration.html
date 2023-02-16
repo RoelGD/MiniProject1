@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,21 +9,25 @@
   <link href="https://fonts.googleapis.com/css?family=Rockwell&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
   <link href="./css/registration.css" rel="stylesheet" />
-  <title>REGISTRATION FORM</title>
+  <title>REGISTRATION PAGE</title>
 
 </head>
 <body>
-  <div class="container">
-
-    <div class="container_1"></div>
-      <span class="logo_title">DERION</span>
-      <span class="nav_home">HOME </span>
-      <span class="nav_logOut">LOGOUT</span>
-      <span class="nav_aboutUs">ABOUT US</span>
-      <span class="nav_siteMap">SITEMAP</span>
-      <span class="nav_contactUs">CONTACT US</span>
-      <span class="logo">D</span>
-      <div class="container3"></div>
+ <div>
+  <div class="main_mother_container">   
+    <div class="main_nav_container1">
+      <div class="logo_box"></div>
+        <span class="logo_derion">D</span>
+         <span class="logo_title_derion">DERION</span>
+      
+             <!--<a class="v38_3" href="signup2.html">SIGN IN</a>-->
+               
+              <a href="index.html" class="nav_home">HOME</a>
+            <a href="aboutUs.html" class="nav_aboutUs">ABOUT US</a>
+          <a href="siteMap.html" class="nav_siteMap">SITEMAP</a>
+        <a href="contactUs.html" class="nav_contactUs">CONTACT US</a>
+      <a href="index.html" class="nav_logOut">LOGOUT</a>
+    </div>
   
   <div class="container_form">
   <h1>REGISTRATION FORM</h1>
@@ -74,15 +77,14 @@
         <td><textarea name="about" id="about" placeholder="Write about yourself..."></textarea></td>
       </tr>
       <tr>
-        <td colspan="2"><input type="submit" class="submit" value="Register"/></td>
+        <td colspan="2"><a class="submit1" href="index.html">REGISTER</a></td>
+        <!--<td colspan="2"><input type="submit" class="submit" value="Register"/></td>-->
       </tr>
     </table>
   </form>
 </div>
 </div>
 
-<footer>
-  <span class="footer1">© 2023 DERION | Puerto Princesa City, Palawan | Call Center (+632) 0123-4567</span>
 
 <script>
   /* Select all input elements for verification
@@ -140,6 +142,11 @@ function formValidation() {
   return true;
 }*/
 </script>
-</footer>
+<div class="main_footer">
+  <span class="footer_info">© 2023 DERION | Puerto Princesa City, Palawan | Call Center (+632) 0123-4567</span>
+</div>
+
+</div>
+
 </body>
 </html>
