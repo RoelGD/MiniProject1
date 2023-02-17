@@ -189,7 +189,7 @@ a {
   opacity: 0;
   visibility: hidden;
   position: fixed;
-  top: 0;
+  top: 100px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -230,10 +230,10 @@ a {
   width: 50%;
   margin: auto;
   overflow: auto;
-  background: #fff;
+  background: none;
   border-radius: 5px;
   padding: 1em 2em;
-  height: 50%;
+  height: 100%;
 }
 
 .modal__close {

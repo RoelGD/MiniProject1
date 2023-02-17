@@ -26,7 +26,7 @@
           <a href="siteMap.html" class="nav_siteMap">SITEMAP</a>
         <a href="contactUs.html" class="nav_contactUs">CONTACT US</a>
             <!-- A button to open the popup form -->
-      <a href= "#" class="nav_signin" onclick="openForm()">SIGN IN</a>
+      <a href= "#" class="nav_signin btn" onclick="openForm()">SIGN IN</a>
     </div>
     
     <div class="main_container2">MAMES</div>
@@ -43,13 +43,12 @@
     </div>
 
     <div class="main_container4">
-      <div class="agency_sss"><a class="sss_btn" href="sss.html">CLICK HERE</a></div>
-        <div class="agency_gsis"><a class="gsis_btn" href="gsis.html">CLICK HERE</a></div>
-          <div class="agency_phealth"><a class="phealth_btn" href="philHealth.html">CLICK HERE</a></div>
-            <div class="agency_pagibig"><a class="pagibig_btn" href="pagIbig.html">CLICK HERE</a></div>
+      <div class="agency_sss"><a class="sss_click" href="sss.html">CLICK HERE</a></div>
+        <div class="agency_gsis"><a class="gsis_click" href="gsis.html">CLICK HERE</a></div>
+          <div class="agency_phealth"><a class="phealth_click" href="philHealth.html">CLICK HERE</a></div>
+            <div class="agency_pagibig"><a class="pagibig_click" href="pagIbig.html">CLICK HERE</a></div>
               </div>
     
-
     <div class="main_container5">
       <span class="main_article2">MANILA, Philippines – We’ve all been there – looking forward to a big pay-day only to find that salary deductions have eaten up your take-home pay.
         With high inflation already threatening your money’s worth and news of rate hikes to SSS and PhilHealth monthly contributions, you might be wondering: just what are these deductions for anyway, and what’s in it for you?
@@ -61,12 +60,38 @@
       </div>
 
   <div class="main_container6"></div>
+  <!------------FORM POP UP---------------->
+  <!---<div><label class="btn" for="modal-1">BUTTON</label></div>---->
 
+<input class="modal-state" id="modal-1" type="checkbox" />
+<div class="modal">
+  <label class="modal__bg" for="modal-1"></label>
+    <div class="modal__inner">
+        <label class="modal__close" for="modal-1"></label>
+      <div class="loginForm">
+        <h2 class="active"> sign in </h2>
+        <h2 class="nonactive"> sign up </h2>
+      <form>
+        <input type="text" class="text" name="username">
+        <span>username</span><br><br>
+        <input type="password" class="text" name="password">
+        <span>password</span><br>
+        <input type="checkbox" id="checkbox-1-1" class="custom-checkbox" />
+        <label for="checkbox-1-1">Keep me Signed in</label>
+        <button class="signin" type="submit" formaction="index.html"> Sign In</button>
+        <hr>
+        <a href="#" class="password">Forgot Password?</a>
+      </form>
+      </div>
+    </div>
+  </div>
+  <!-----------FORM POPUP----------------->
   <div class="main_footer">
     <span class="footer_info">© 2023 DERION | Puerto Princesa City, Palawan | Call Center (+632) 0123-4567</span>
   </div>
 
 </div>
+
   
 </body>
 </html>
