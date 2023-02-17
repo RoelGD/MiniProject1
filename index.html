@@ -26,10 +26,13 @@
           <a href="siteMap.html" class="nav_siteMap">SITEMAP</a>
         <a href="contactUs.html" class="nav_contactUs">CONTACT US</a>
             <!-- A button to open the popup form -->
-      <a href= "#" class="nav_signin btn" onclick="openForm()">SIGN IN</a>
-    </div>
+            <!--<a href="#" class="nav_signin btn" id="modal-1" for="modal-1">SIGN IN</a>
+            <a href="#" class="nav_signin btn" id="modal-1" for="modal-1">SIGN IN</a>---->
+      <div><label class="nav_signin btn" for="modal-1"><u>SIGN IN</u></label></div>
     
-    <div class="main_container2">MAMES</div>
+  </div>
+    
+    <div class="main_container2"></div>
     
     <div class="main_container3">
       <span class="main_article1">MANILA, Philippines – We’ve all been there – looking forward to a big pay-day only to find that salary deductions have eaten up your take-home pay.
@@ -68,26 +71,41 @@
   <label class="modal__bg" for="modal-1"></label>
     <div class="modal__inner">
         <label class="modal__close" for="modal-1"></label>
-      <div class="loginForm">
+      <div class="login">
         <h2 class="active"> sign in </h2>
+
         <h2 class="nonactive"> sign up </h2>
       <form>
+
         <input type="text" class="text" name="username">
-        <span>username</span><br><br>
+        <span>Username</span>
+        
+        <br>
+        
+        <br>
+        
         <input type="password" class="text" name="password">
-        <span>password</span><br>
+        <span>Password</span>
+        <br>
+        
         <input type="checkbox" id="checkbox-1-1" class="custom-checkbox" />
         <label for="checkbox-1-1">Keep me Signed in</label>
+        
         <button class="signin" type="submit" formaction="index.html"> Sign In</button>
+        
         <hr>
+        
         <a href="#" class="password">Forgot Password?</a>
       </form>
-      </div>
+      
+    </div>
     </div>
   </div>
   <!-----------FORM POPUP----------------->
   <div class="main_footer">
     <span class="footer_info">© 2023 DERION | Puerto Princesa City, Palawan | Call Center (+632) 0123-4567</span>
+    <label class="btn" for="modal-1">BUTTON</label>
+ 
   </div>
 
 </div>

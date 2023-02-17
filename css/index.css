@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
 }
-/*body {
+body {
   font-size: 14px;
-}*/
+}
 .main_mother_container {
   width: 100%;
   height: 1672px;
@@ -174,6 +174,7 @@ width: 100%;
   left: 0px;
   overflow: hidden;
   text-align: center;
+  justify-content: center;
   
 }
 
@@ -202,16 +203,15 @@ width: 100%;
   text-align: center;
 }
 .main_article_title1 {
+  display: block;
   width: 100%;
   color: rgba(255,255,255,1);
-  position: absolute;
-  top: 449px;
-  left: 114px;
   font-family: Roboto;
   font-weight: Bold;
   font-size: 36px;
   opacity: 1;
-  text-align: center;
+  margin-top: 20px;
+  
 }
 .main_click_box1 {
 
@@ -248,6 +248,7 @@ width: 100%;
   overflow: hidden;
 }
 .main_article2 {
+  display: block;
   width: 984px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -260,16 +261,16 @@ width: 100%;
   text-align: center;
 }
 .main_article_title2 {
+  display: block;
   width: 100%;
   color: rgba(255,255,255,1);
-  position: absolute;
-  top: 1008px;
-  left: 114px;
   font-family: Roboto;
   font-weight: Bold;
   font-size: 36px;
   opacity: 1;
-  text-align: center;
+  margin-top: 20px;
+  
+  
   
 }
 .main_click_box2 {
@@ -449,7 +450,7 @@ width: 100%;
 /* -------- UP--MAIN INDEX.CSS FILE -----------*/
 /* -------- FORM POP UP -----------*/
 
-  .loginForm {
+  .login {
   position: relative;
   height: 560px;
   width: 405px;
@@ -461,7 +462,7 @@ width: 100%;
   background-color: #4784ee; 
 }
 
-form {
+.form {
   padding-top: 80px;
 }
 
@@ -488,7 +489,7 @@ h2:first-child {
   padding-left: 0px;
 }
 
-span {
+.span {
   text-transform: uppercase;
   font-size: 12px;
   opacity: 0.4; 
@@ -500,12 +501,12 @@ span {
 
 .text {
   border: none;
-  width: 89%;
+  width: 100%;
   padding: 10px 20px;
   display: block;
   height: 15px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.1);
+  background: white;
   border: 2px solid rgba(255, 255, 255, 0);
   overflow: hidden;
   margin-top: 15px;
@@ -551,6 +552,8 @@ span,
   display: inline-block;
   position: relative;
   top: 6px;
+  left: 170px;
+  
 }
 
 .custom-checkbox:checked {
@@ -607,18 +610,19 @@ hr {
 }
 
 
-.password {
+.a {
   text-align: center;
-  display: block;
+  display: flex;
   top: 120px;
   position: relative;
   text-decoration: none;
   color: white;
 }
 
-
-
-/* [Object] Modal
+.password{
+ margin-left: 90px;
+}
+/* [Object] Modal8/
  * =============================== */
  .modal {
   opacity: 0;
@@ -629,7 +633,7 @@ hr {
   bottom: 0;
   left: 0;
   text-align: left;
-  background: rgba(7, 2, 2, 0.9);
+  background: none;
   transition: opacity .25s ease;
 }
 
@@ -713,13 +717,13 @@ hr {
 }
 
 
-/* Other* ===================
+/* Other* =============================== */
 body {
   padding: 1%;
   font: 1/1.5em sans-serif;
   text-align: center;
 }
-
+/*
 .btn {
   cursor: pointer;
   background: #27ae60;
@@ -729,15 +733,15 @@ body {
   border-radius: 3px;
 }
 
-.btn:hover,
+/*.btn:hover,
 .btn:focus {
   background: #2ecc71;
 }
 
-.btn:active {
+/*.btn:active {
   background: #27ae60;
   box-shadow: 0 1px 2px rgba(0,0,0, .2) inset;
-}============ */
+}
 
 
 
