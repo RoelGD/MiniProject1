@@ -34,7 +34,7 @@ width: 100%;
   color: rgba(34,63,217,1);
   position: absolute;
   top: 64px;
-  left: 247px;
+  left: 220px;
   font-family: Rubik One;
   font-weight: Regular;
   font-size: 40px;
@@ -46,7 +46,7 @@ width: 100%;
   color: rgba(255,255,255,1);
   position: absolute;
   top: 16px;
-  left: 127px;
+  left: 105px;
   font-family: Rockwell;
   font-weight: Bold;
   font-size: 123px;
@@ -58,7 +58,7 @@ width: 100%;
   color: rgba(34,63,217,1);
   position: absolute;
   top: 66px;
-  left: 921px;
+  left: 880px;
   font-family: Roboto;
   font-weight: Bold;
   font-size: 20px;
@@ -66,20 +66,19 @@ width: 100%;
   text-align: center;
   text-decoration: none;
 }
-/*.38_3*/
+
 .nav_signin{
   width: 81px;
   color: rgba(34,63,217,1);
   position: absolute;
-  top: 95px;
-  left: 1008px;
+  top: 85px;
+  left: 958px;
   font-family: Roboto;
   font-weight: SemiBold;
   font-size: 17px;
   opacity: 1;
   text-align: center;
-  /*add*/
-  border: none;
+
   cursor: pointer;
 
 }
@@ -88,7 +87,7 @@ width: 100%;
   color: rgba(34,63,217,1);
   position: absolute;
   top: 95px;
-  left: 1090px;
+  left: 1040px;
   font-family: Roboto;
   font-weight: SemiBold;
   font-size: 17px;
@@ -100,7 +99,7 @@ width: 100%;
   color: rgba(34,63,217,1);
   position: absolute;
   top: 66px;
-  left: 995px;
+  left: 945px;
   font-family: Roboto;
   font-weight: Bold;
   font-size: 20px;
@@ -113,7 +112,7 @@ width: 100%;
   color: rgba(34,63,217,1);
   position: absolute;
   top: 66px;
-  left: 1102px;
+  left: 1052px;
   font-family: Roboto;
   font-weight: Bold;
   font-size: 20px;
@@ -126,7 +125,7 @@ width: 100%;
   color: rgba(34,63,217,1);
   position: absolute;
   top: 66px;
-  left: 1200px;
+  left: 1150px;
   font-family: Roboto;
   font-weight: Bold;
   font-size: 20px;
@@ -268,10 +267,7 @@ width: 100%;
   font-weight: Bold;
   font-size: 36px;
   opacity: 1;
-  margin-top: 20px;
-  
-  
-  
+  margin-top: 20px;  
 }
 .main_click_box2 {
   background: rgba(39,22,241,1);
@@ -309,7 +305,6 @@ width: 100%;
   left: 101px;
   overflow: hidden;
   justify-content: center;
-  
 }
 .agency_gsis {
   display: flex;
@@ -404,7 +399,10 @@ width: 100%;
   background-color: rgba(39,22,241,1);
   cursor: pointer; 
   text-decoration: none;
-  opacity: 0.5;
+  opacity: 0.8;
+  margin-bottom: 120px;
+  padding: 0px 15px;
+  border: 1px solid white;
 
 }
 
@@ -418,8 +416,10 @@ width: 100%;
   background-color: rgba(39,22,241,1);
   cursor: pointer; 
   text-decoration: none;
-  opacity: 0.5;
-
+  opacity: 0.8;
+  margin-bottom: 120px;
+  padding: 0px 15px;
+  border: 1px solid white;
 }
 
 .phealth_click {
@@ -432,7 +432,10 @@ width: 100%;
   background-color: rgba(39,22,241,1);
   cursor: pointer; 
   text-decoration: none;
-  opacity: 0.5;
+  opacity: 0.8;
+  margin-bottom: 120px;
+  padding: 0px 15px;
+  border: 1px solid white;
 }
 
 .pagibig_click {
@@ -445,7 +448,10 @@ width: 100%;
   background-color: rgba(39,22,241,1);
   cursor: pointer; 
   text-decoration: none;
-  opacity: 0.5;
+  opacity: 0.8;
+  margin-bottom: 120px;
+  padding: 0px 15px;
+  border: 1px solid white;
 }
 /* -------- UP--MAIN INDEX.CSS FILE -----------*/
 /* -------- FORM POP UP -----------*/
@@ -744,8 +750,14 @@ body {
 }
 
 
+/* -------------------REGISTRATION FORM------------------------*/
 
 
 
-/* -------------------------------------------*/
+
+
+
+
+
+/* ---------------------------------------------------*/
 

@@ -29,10 +29,21 @@
       <a href="index.html" class="nav_logOut">LOGOUT</a>
     </div>
   
+  
+<div><label class="btn" for="modal-1">BUTTON</label></div>
+
+<input class="modal-state" id="modal-1" type="checkbox" />
+<div class="modal">
+<label class="modal__bg" for="modal-1"></label>
+<div class="modal__inner">
+  <label class="modal__close" for="modal-1"></label>
+  <div class="login">
+
   <div class="container_form">
-  <h1>REGISTRATION FORM</h1>
+  
   <form name="registration" class="registartion-form" onsubmit="return formValidation()">
     <table>
+      <h1>REGISTRATION FORM</h1>
       <tr>
         <td><label for="name">Name:</label></td>
         <td><input type="text" name="name" id="name" placeholder=""></td>
@@ -85,9 +96,9 @@
 </div>
 </div>
 
-
+<!------------
 <script>
-  /* Select all input elements for verification
+   Select all input elements for verification
 const name = document.getElementById("name");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
@@ -147,6 +158,6 @@ function formValidation() {
 </div>
 
 </div>
-
+------------->
 </body>
 </html>
