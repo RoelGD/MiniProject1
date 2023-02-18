@@ -18,9 +18,7 @@
       <div class="logo_box"></div>
         <span class="logo_derion">D</span>
          <span class="logo_title_derion">DERION</span>
-      
-             <!--<a class="v38_3" href="signup2.html">SIGN IN</a>-->
-                <a href="registration.html" class="nav_signup">SIGN UP</a>
+            <div><label class="nav_signup btn" for="modal-2"><u>SIGN UP</u></label></div>
               <a href="index.html" class="nav_home">HOME</a>
             <a href="aboutUs.html" class="nav_aboutUs">ABOUT US</a>
           <a href="siteMap.html" class="nav_siteMap">SITEMAP</a>
@@ -73,7 +71,7 @@
       <div class="login">
         <h2 class="active"> sign in </h2>
 
-        <h2 class="nonactive"> sign up </h2>
+         <h2 class="nonactive"> sign up </h2>
       <form>
 
         <input type="text" class="text" name="username">
@@ -101,9 +99,79 @@
     </div>
   </div>
   <!-----------FORM POPUP----------------->
+  
+  
+
+<input class="modal-state" id="modal-2" type="checkbox" />
+<div class="modal">
+<label class="modal__bg" for="modal-2"></label>
+<div class="modal__inner">
+  <label class="modal__close" for="modal-2"></label>
+
+
+  <div class="container_form">
+ 
+  <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+    <table>
+              <h1><u>REGISTRATION FORM</u></h1>
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" name="name" id="name" placeholder=""></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="text" name="email" id="email" placeholder=""></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" name="password" id="password"></td>
+      </tr>
+      <tr>
+        <td><label for="phoneNumber">Phone Number:</label></td>
+        <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
+      </tr>
+      <tr>
+        <td><label for="gender">Gender:</label></td>
+        <td>Male: <input type="radio" name="gender" value="male">
+          Female: <input type="radio" name="gender" value="female">
+          Other: <input type="radio" name="gender" value="other"></td>
+      </tr>
+      <tr>
+        <td><label for="language">language</label></td>
+        <td>
+          <select name="language" id="language">
+            <option value="">Select language</option>
+            <option value="English">English</option>
+            <option value="Spanish">Spanish</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Arabic">Arabic</option>
+            <option value="Russian">Russian</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="zipcode">Zip Code:</label></td>
+        <td><input type="number" name="zipcode" id="zipcode"></td>
+      </tr>
+      <tr>
+        <td><label for="about">About:</label></td>
+        <td><textarea name="about" id="about" placeholder="Write about yourself..."></textarea></td>
+      </tr>  
+        <tr>
+        <td colspan="3"><a class="submit1" href="index.html">Submit</a></td>
+        <!--<td colspan="2"><input type="submit" class="submit" value="Register"/></td>-->
+      </tr>
+    </table>
+  </form>
+</div>
+
+
+  
+  <!-----------FORM POPUP----------------->
+
+
   <div class="main_footer">
     <span class="footer_info">© 2023 DERION | Puerto Princesa City, Palawan | Call Center (+632) 0123-4567</span>
-    <label class="btn" for="modal-1">BUTTON</label>
  
   </div>
 
