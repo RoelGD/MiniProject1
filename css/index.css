@@ -34,7 +34,7 @@ width: 100%;
   color: rgba(34,63,217,1);
   position: absolute;
   top: 64px;
-  left: 220px;
+  left: 230px;
   font-family: Rubik One;
   font-weight: Regular;
   font-size: 40px;
@@ -46,7 +46,7 @@ width: 100%;
   color: rgba(255,255,255,1);
   position: absolute;
   top: 16px;
-  left: 105px;
+  left: 115px;
   font-family: Rockwell;
   font-weight: Bold;
   font-size: 123px;
@@ -71,14 +71,13 @@ width: 100%;
   width: 81px;
   color: rgba(34,63,217,1);
   position: absolute;
-  top: 85px;
+  top: 95px;
   left: 858px;
   font-family: Roboto;
   font-weight: SemiBold;
   font-size: 17px;
   opacity: 1;
   text-align: center;
-
   cursor: pointer;
 
 }
@@ -93,6 +92,7 @@ width: 100%;
   font-size: 17px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
 .nav_aboutUs {
   width: 107px;
@@ -157,8 +157,6 @@ width: 100%;
   background-size: cover;
   opacity: 1;
   /*position: absolute;*/
-  top: 175px;
-  left: 1px;
   overflow: hidden;
   justify-content: center;
 }
@@ -169,55 +167,53 @@ width: 100%;
   height: 304px;
   background: rgba(53,49,242,1);
   opacity: 1;
-  overflow: hidden;
+ 
   text-align: center;
  
   
 }
 .main_article_title1 {
-  display: flex;
+  position: relative;
   color: rgba(255,255,255,1);
   font-family: Roboto;
-  font-weight: Bold;
-  font-size: 36px;
+  font-weight: Bolder;
+  font-size: 30px;
   opacity: 1;
-  margin-top: 30px;
+  top: 30px;
   justify-content: center;
-  
+
 }
 .main_article1 {
-  display: block;
+  position: relative;
   width: 85%;
   color: rgba(255,255,255,1);
   font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
+  font-size: 16px;
   opacity: 1;
-  margin-top: 20px;
   justify-content: center;
-  text-align: center;
+  top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 .main_click_box1 {
-  display: block;
+  display: flex;
   background: rgba(217,217,217,1);
   opacity: 1;
-  overflow: hidden;
-  margin-top: 40px;
+  margin-top: 90px;
+  
 }
 .main_click_here1 { 
-  display: block;
-  width: 180px;
+
+  width: 160px;
   color: rgba(39,22,241,1);
   background: rgba(217,217,217,1);
   font-family: Roboto;
-  font-weight: Bold;
-  font-size: 24px;
+  font-size: 20px;
   opacity: 1;
   margin: auto;
   text-align: center;
   text-decoration: none;
+  top: auto;
 }
 
 .main_container4 {
@@ -294,49 +290,47 @@ width: 100%;
 }
 
 .main_article_title2 {
-  display: flex;
+  position: relative;
   color: rgba(255,255,255,1);
   font-family: Roboto;
-  font-weight: Bold;
-  font-size: 36px;
+  font-weight: Bolder;
+  font-size: 30px;
   opacity: 1;
-  margin-top: 30px;
+  top: 30px;
   justify-content: center;
 }
 .main_article2 {
-  display: block;
+  position: relative;
   width: 85%;
   color: rgba(255,255,255,1);
   font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
+  font-size: 16px;
   opacity: 1;
-  margin-top: 20px;
   justify-content: center;
-  text-align: center;
+  top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .main_click_box2 {
-  display: block;
+  
+  display: flex;
   background: rgba(217,217,217,1);
   opacity: 1;
-  overflow: hidden;
-  margin-top: 40px;
+  margin-top: 90px;
+  
 }
 .main_click_here2 {
-  display: block;
-  width: 180px;
+  width: 160px;
   color: rgba(39,22,241,1);
   background: rgba(217,217,217,1);
   font-family: Roboto;
-  font-weight: Bold;
-  font-size: 24px;
+  font-size: 20px;
   opacity: 1;
   margin: auto;
   text-align: center;
   text-decoration: none;
+  top: auto;
 }
 
 .main_footer{
@@ -348,7 +342,18 @@ width: 100%;
   left: 0px;
   overflow: hidden;
 }
-
+.footer_info {
+  width: 568px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 1604px;
+  left: 416px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
 .main_container6 {
   display: block;
   width: 100%;
@@ -363,18 +368,7 @@ width: 100%;
   left: 0px;
   overflow: hidden;
 }
-.footer_info {
-  width: 568px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 1604px;
-  left: 436px;
-  font-family: Inter;
-  font-weight: Bold;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
+
 
 .sss_click  {
   display: block;
@@ -742,16 +736,18 @@ body {
 /* [Object] Modal
  * =============================== */
  .modal {
-  display: inline-flex;
+  display: block;
   justify-content: center;
   visibility: hidden;
   right: 0;
   bottom: 0;
   left: 0;
+  top: 0%;
   text-align: left;
-  /*background: rgba(7, 2, 2, 0.9);*/
+  background: none;
   transition: opacity .25s ease;
   height: 600px; /*HEIGHT*/ 
+  
 }
 .registartion-form {
  display: block;
@@ -845,16 +841,16 @@ u {
 
 .modal__close:before {
   transform: rotate(-45deg);
-}
-
+}*/
 .container_form {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 600px;
-  background-color: #e8eaec;
-}*/
+  top: 0%;
+  
+}
 /*.signin {
   background-color: #1161ed;
   color: #FFF;
