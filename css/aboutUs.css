@@ -5,6 +5,7 @@ body {
   font-size: 14px;
 }
 .main_mother_container {
+  display: block;
   width: 100%;
   height: 1672px;
   background: rgba(255,255,255,1);
@@ -148,150 +149,78 @@ width: 100%;
 
 }
 .main_container2 {
-  display: block;
-  width: 100%;
-  height: 257px;
-  background: url("../images/v21_6.png");
+  margin-top: 50px;
+  width: 50%;
+  height: 300px;
+  background: url("../images/ourstory.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  /*position: absolute;*/
   overflow: hidden;
   justify-content: center;
 }
 
 .main_container3{
-  display: inline flex;
-  width: 100%;
-  height: 304px;
-  background: rgba(53,49,242,1);
+  margin-top: 50px;
+  width: 50%;
+  height: 300px;
+  background: white;
   opacity: 1;
-  text-align: center;
+  justify-content: center;
+  
+ 
  
 }
 .main_article_title1 {
-  position: relative;
-  color: rgba(255,255,255,1);
+  
+  color:  rgba(53,49,242,1);;
   font-family: Roboto;
   font-weight: Bolder;
   font-size: 30px;
   opacity: 1;
-  top: 30px;
-  justify-content: center;
-
+  
 }
 .main_article1 {
-  position: relative;
+
   width: 85%;
-  color: rgba(255,255,255,1);
+  color:  rgba(53,49,242,1);;
   font-family: Roboto;
   font-size: 14px;
   opacity: 1;
-  justify-content: center;
-  top: 50px;
-  margin-left: auto;
-  margin-right: auto;
 }
-.main_click_box1 {
-  display: flex;
-  background: rgba(217,217,217,1);
-  opacity: 1;
-  margin-top: 90px;
- 
-  
-}
-.main_click_here1 { 
 
-  width: 160px;
-  color: rgba(39,22,241,1);
-  background: rgba(217,217,217,1);
-  font-family: Roboto;
-  font-size: 20px;
-  opacity: 1;
-  margin: auto;
-  text-align: center;
-  text-decoration: none;
-  top: auto;
-  padding: 5px 5px;
-}
 
 .main_container4 {
-  display: inline-flex;
-  flex-direction: row;
-  width: 100%;
-  height: 257px;
-  background: rgba(217,217,217,1);
-  opacity: 1;
-  overflow: hidden;
-  justify-content: space-around;  
-}
-.agency_sss {
-  display: block;
-  width: 295px;
-  height: 194px;
-  background: url("../images/v34_2.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  overflow: hidden;
-  margin: auto;
-}
-.agency_gsis {
-  display: block;
-  width: 295px;
-  height: 194px;
-  background: url("../images/v34_3.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  overflow: hidden;
-  justify-content: center;
-  margin: auto;
-}
-.agency_phealth {
-  display: block;
-  width: 295px;
-  height: 194px;
-  background: url("../images/v34_4.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  overflow: hidden;
-  justify-content: center;
-  margin: auto;
-}
-.agency_pagibig {
-  display: block;
-  width: 295px;
-  height: 194px;
-  background: url("../images/v34_5.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  overflow: hidden;
-  justify-content: center;
-  margin: auto;
- 
-}
-.main_container5 {
-  display: inline flex;
-  width: 100%;
-  height: 304px;
-  background: rgba(53,49,242,1);
-  opacity: 1;
+  margin-top: 40px;
+  width: 50%;
+  height: 300px;
+  background:white;
+  opacity: 2;
   overflow: hidden;
   text-align: center;
+}
+
+
+.main_container5 {
+  
+  margin-top: 40px;
+  width: 50%;
+  height: 300px;
+  background: url("../images/mission.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+  justify-self: left;
+
  
 }
 
 .main_article_title2 {
   position: relative;
-  color: rgba(255,255,255,1);
+  color:  rgba(53,49,242,1);;
   font-family: Roboto;
   font-weight: Bolder;
   font-size: 30px;
@@ -302,41 +231,53 @@ width: 100%;
 .main_article2 {
   position: relative;
   width: 85%;
-  color: rgba(255,255,255,1);
+  color: rgba(53,49,242,1);;
   font-family: Roboto;
   font-size: 14px;
+  opacity: 1;  
+}
+.main_container6 {
+  margin-top: 40px;
+  width: 50%;
+  height: 300px;
+  background: url("../images/vision.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   opacity: 1;
+  overflow: hidden;
   justify-content: center;
-  top: 50px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.main_click_box2 {
-  
-  display: flex;
-  background: rgba(217,217,217,1);
+.main_container7{
+  margin-top: 40px;
+  width: 50%;
+  height: 300px;
+  background: white;
   opacity: 1;
-  margin-top: 90px;
-  
-}
-.main_click_here2 {
-  width: 160px;
-  color: rgba(39,22,241,1);
-  background: rgba(217,217,217,1);
-  font-family: Roboto;
-  font-size: 20px;
-  opacity: 1;
-  margin: auto;
+  overflow: hidden;
   text-align: center;
-  text-decoration: none;
-  top: auto;
-  padding: 5px 5px;
-
+ 
 }
-
+.main_article_title3 {
+  position: relative;
+  color: rgba(53,49,242,1);
+  font-family: Roboto;
+  font-weight: Bolder;
+  font-size: 30px;
+  opacity: 1;
+  top: 30px;
+  justify-content: center;
+}
+.main_article3 {
+  position: relative;
+  width: 85%;
+  color:  rgba(53,49,242,1);
+  font-family: Roboto;
+  font-size: 14px;
+  opacity: 1;  
+}
 .main_footer{
-
   width: 100%;
   height: 121px;
   background: rgba(255,255,255,1);
@@ -356,87 +297,17 @@ width: 100%;
   font-weight: Bold;
   font-size: 14px;
   opacity: 1;
-  text-align: left;
+  text-align: left;  
+}
+.control_1,.control_3 {
+display: flex;
+  float: right;
+  justify-content: right;
   
 }
-.main_container6 {
-  display: block;
-  width: 100%;
-  height: 260px;
-  background: url("../images/v35_11.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 1291px;
-  left: 0px;
-  overflow: hidden;
-}
-
-
-.sss_click  {
-  display: block;
-  margin: auto;
-  color: white;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 35px;
-  background-color: rgba(39,22,241,1);
-  cursor: pointer; 
-  text-decoration: none;
-  opacity: 0.8;
-  margin-bottom: 120px;
-  padding: 0px 15px;
-  border: 1px solid white;
-
-}
-
-.gsis_click {
-  display: block;
-  margin: auto;
-  color: white;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 35px;
-  background-color: rgba(39,22,241,1);
-  cursor: pointer; 
-  text-decoration: none;
-  opacity: 0.8;
-  margin-bottom: 120px;
-  padding: 0px 15px;
-  border: 1px solid white;
-}
-
-.phealth_click {
-  display: block;
-  margin: auto;
-  color: white;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 35px;
-  background-color: rgba(39,22,241,1);
-  cursor: pointer; 
-  text-decoration: none;
-  opacity: 0.8;
-  margin-bottom: 120px;
-  padding: 0px 15px;
-  border: 1px solid white;
-}
-
-.pagibig_click {
-  display: block;
-  margin: auto;
-  color: white;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 35px;
-  background-color: rgba(39,22,241,1);
-  cursor: pointer; 
-  text-decoration: none;
-  opacity: 0.8;
-  margin-bottom: 120px;
-  padding: 0px 15px;
-  border: 1px solid white;
+.control_2{
+  display: flex;
+  float: left;
+  
 }
 /* -------- UP--MAIN INDEX.CSS FILE -----------*/
