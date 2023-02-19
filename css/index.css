@@ -20,6 +20,7 @@ height: 175px;
 width: 100%;
 }
 .logo_box {
+ display: block;
   width: 109px;
   height: 112px;
   background: rgba(34,63,217,1);
@@ -29,12 +30,14 @@ width: 100%;
   left: 129px;
   border-radius: 50%;
 }
-.logo_title_derion {
+/*--------DONT EDIT-------------*/
+.logo_title_derion { 
+  display: block;
   width: 168px;
   color: rgba(34,63,217,1);
   position: absolute;
-  top: 64px;
-  left: 230px;
+  top: 56px;
+  left: 224px;
   font-family: Rubik One;
   font-weight: Regular;
   font-size: 40px;
@@ -42,17 +45,19 @@ width: 100%;
   text-align: center;
 }
 .logo_derion {
+  display: block;
   width: 123px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 8px;
-  left: 115px;
+  top: 5px;
+  left: 120px;
   font-family: Rockwell;
   font-weight: Bold;
   font-size: 123px;
   opacity: 1;
   text-align: center;
 }
+/*--------DONT EDIT--UP-----------*/
 .nav_home {
   width: 58px;
   color: rgba(34,63,217,1);

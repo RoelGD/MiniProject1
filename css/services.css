@@ -1,4 +1,10 @@
-.container{
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.main_mother_container {
   width: 100%;
   height: 1672px;
   background: rgba(255,255,255,1);
@@ -8,7 +14,12 @@
   left: 0px;
   overflow: hidden;
 }
-.container_1 {
+.main_nav_container1{
+background-color: white;
+height: 175px;
+width: 100%;
+}
+.logo_box {
   width: 109px;
   height: 112px;
   background: rgba(34,63,217,1);
@@ -18,105 +29,324 @@
   left: 129px;
   border-radius: 50%;
 }
-.logo_title{
+.logo_title_derion {
   width: 168px;
   color: rgba(34,63,217,1);
   position: absolute;
   top: 64px;
-  left: 247px;
+  left: 240px;
   font-family: Rubik One;
   font-weight: Regular;
   font-size: 40px;
   opacity: 1;
   text-align: center;
 }
-.nav_home{
-  width: 58px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 66px;
-  left: 921px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-  text-decoration: none;
-}
-.nav_logOut{
-  width: 107px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 99px;
-  left: 1049px;
-  font-family: Roboto;
-  font-weight: SemiBold;
-  font-size: 17px;
-  opacity: 1;
-  text-align: center;
-}
-.nav_aboutUs{
-  width: 107px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 66px;
-  left: 995px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-  text-decoration: none;
-}
-.nav_siteMap{
-  width: 98px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 66px;
-  left: 1102px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-  text-decoration: none;
-}
-.nav_contactUs{
-  width: 133px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 66px;
-  left: 1200px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-  text-decoration: none;
-}
-.logo{
+.logo_derion {
   width: 123px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 16px;
-  left: 127px;
+  top: 13px;
+  left: 130px;
   font-family: Rockwell;
   font-weight: Bold;
   font-size: 123px;
   opacity: 1;
   text-align: center;
 }
-.container3{
+.nav_home {
+  width: 58px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 66px;
+  left: 780px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav_signin{
+  width: 81px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 95px;
+  left: 858px;
+  font-family: Roboto;
+  font-weight: SemiBold;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+  cursor: pointer;
+
+}
+.nav_signup {
+  width: 107px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 95px;
+  left: 940px;
+  font-family: Roboto;
+  font-weight: SemiBold;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+  cursor: pointer;
+}
+.nav_aboutUs {
+  width: 107px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 66px;
+  left: 845px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+.nav_siteMap {
+  width: 98px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 66px;
+  left: 952px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+.nav_contactUs {
+  width: 133px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 66px;
+  left: 1050px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav_logOut{
+  width: 107px;
+  color: rgba(34,63,217,1);
+  position: absolute;
+  top: 99px;
+  left: 900px;
+  font-family: Roboto;
+  font-weight: SemiBold;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+
+}
+.main_container2 {
+  display: block;
+  width: 100%;
+  height: 257px;
+  background: url("../images/v21_6.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  /*position: absolute;*/
+  overflow: hidden;
+  justify-content: center;
+}
+
+.main_container3{
+  display: inline flex;
+  width: 100%;
+  height: 304px;
+  background: rgba(53,49,242,1);
+  opacity: 1;
+  text-align: center;
+ 
+}
+.main_article_title1 {
+  position: relative;
+  color: rgba(255,255,255,1);
+  font-family: Roboto;
+  font-weight: Bolder;
+  font-size: 30px;
+  opacity: 1;
+  top: 30px;
+  justify-content: center;
+
+}
+.main_article1 {
+  position: relative;
+  width: 85%;
+  color: rgba(255,255,255,1);
+  font-family: Roboto;
+  font-size: 14px;
+  opacity: 1;
+  justify-content: center;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_click_box1 {
+  display: flex;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  margin-top: 90px;
+ 
+  
+}
+.main_click_here1 { 
+
+  width: 160px;
+  color: rgba(39,22,241,1);
+  background: rgba(217,217,217,1);
+  font-family: Roboto;
+  font-size: 20px;
+  opacity: 1;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  top: auto;
+  padding: 5px 5px;
+}
+
+.main_container4 {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  height: 257px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  overflow: hidden;
+  justify-content: space-around;  
+}
+.agency_sss {
+  display: block;
+  width: 295px;
+  height: 194px;
+  background: url("../images/v34_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+  margin: auto;
+}
+.agency_gsis {
+  display: block;
+  width: 295px;
+  height: 194px;
+  background: url("../images/v34_3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+  justify-content: center;
+  margin: auto;
+}
+.agency_phealth {
+  display: block;
+  width: 295px;
+  height: 194px;
+  background: url("../images/v34_4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+  justify-content: center;
+  margin: auto;
+}
+.agency_pagibig {
+  display: block;
+  width: 295px;
+  height: 194px;
+  background: url("../images/v34_5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+  justify-content: center;
+  margin: auto;
+ 
+}
+.main_container5 {
+  display: inline flex;
+  width: 100%;
+  height: 304px;
+  background: rgba(53,49,242,1);
+  opacity: 1;
+  overflow: hidden;
+  text-align: center;
+ 
+}
+
+.main_article_title2 {
+  position: relative;
+  color: rgba(255,255,255,1);
+  font-family: Roboto;
+  font-weight: Bolder;
+  font-size: 30px;
+  opacity: 1;
+  top: 30px;
+  justify-content: center;
+}
+.main_article2 {
+  position: relative;
+  width: 85%;
+  color: rgba(255,255,255,1);
+  font-family: Roboto;
+  font-size: 14px;
+  opacity: 1;
+  justify-content: center;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_click_box2 {
+  
+  display: flex;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  margin-top: 90px;
+  
+}
+.main_click_here2 {
+  width: 160px;
+  color: rgba(39,22,241,1);
+  background: rgba(217,217,217,1);
+  font-family: Roboto;
+  font-size: 20px;
+  opacity: 1;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  top: auto;
+  padding: 5px 5px;
+
+}
+
+.main_footer{
+
   width: 100%;
   height: 121px;
   background: rgba(255,255,255,1);
   opacity: 1;
-  position: absolute;
   top: 1551px;
   left: 0px;
   overflow: hidden;
+
 }
-.footer1{
+.footer_info {
   width: 568px;
   color: rgba(34,63,217,1);
   position: absolute;
@@ -127,4 +357,86 @@
   font-size: 14px;
   opacity: 1;
   text-align: left;
+  
 }
+.main_container6 {
+  display: block;
+  width: 100%;
+  height: 260px;
+  background: url("../images/v35_11.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1291px;
+  left: 0px;
+  overflow: hidden;
+}
+
+
+.sss_click  {
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 35px;
+  background-color: rgba(39,22,241,1);
+  cursor: pointer; 
+  text-decoration: none;
+  opacity: 0.8;
+  margin-bottom: 120px;
+  padding: 0px 15px;
+  border: 1px solid white;
+
+}
+
+.gsis_click {
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 35px;
+  background-color: rgba(39,22,241,1);
+  cursor: pointer; 
+  text-decoration: none;
+  opacity: 0.8;
+  margin-bottom: 120px;
+  padding: 0px 15px;
+  border: 1px solid white;
+}
+
+.phealth_click {
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 35px;
+  background-color: rgba(39,22,241,1);
+  cursor: pointer; 
+  text-decoration: none;
+  opacity: 0.8;
+  margin-bottom: 120px;
+  padding: 0px 15px;
+  border: 1px solid white;
+}
+
+.pagibig_click {
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 35px;
+  background-color: rgba(39,22,241,1);
+  cursor: pointer; 
+  text-decoration: none;
+  opacity: 0.8;
+  margin-bottom: 120px;
+  padding: 0px 15px;
+  border: 1px solid white;
+}
+/* -------- UP--MAIN INDEX.CSS FILE -----------*/

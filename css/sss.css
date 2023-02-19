@@ -33,20 +33,20 @@ width: 100%;
   width: 168px;
   color: rgba(34,63,217,1);
   position: absolute;
-  top: 64px;
-  left: 230px;
+  top: 70px;
+  left: 248px;
   font-family: Rubik One;
   font-weight: Regular;
   font-size: 40px;
   opacity: 1;
   text-align: center;
 }
-span.logo_derion {
+.logo_derion {
   width: 123px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 8px;
-  left: 115px;
+  top: 16px;
+  left: 125px;
   font-family: Rockwell;
   font-weight: Bold;
   font-size: 123px;
@@ -437,7 +437,7 @@ span.logo_derion {
   padding: 0px 15px;
   border: 1px solid white;
 }
- /*-------------------*/
+/* -------- UP--MAIN INDEX.CSS FILE -----------*/
 
 
 
