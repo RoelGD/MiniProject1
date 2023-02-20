@@ -14,11 +14,12 @@ body {
   top: 0px;
   left: 0px;
   overflow: hidden;
-}
+} 
 .main_nav_container1{
 background-color: white;
 height: 175px;
 width: 100%;
+
 }
 .logo_box {
   width: 109px;
@@ -34,7 +35,7 @@ width: 100%;
   width: 168px;
   color: rgba(34,63,217,1);
   position: absolute;
-  top: 64px;
+  top: 62px;
   left: 240px;
   font-family: Rubik One;
   font-weight: Regular;
@@ -43,10 +44,10 @@ width: 100%;
   text-align: center;
 }
 .logo_derion {
-  width: 123px;
+  width: 125px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 13px;
+  top: 0px;
   left: 130px;
   font-family: Rockwell;
   font-weight: Bold;
@@ -279,9 +280,66 @@ width: 100%;
   text-align: left;  
 }
 
-.control_1 
-.control_2 
-.control_3{
 
-}
 /* -------- UP--MAIN INDEX.CSS FILE -----------*/
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+.services-inner {
+  border: 2px solid #48c7ec;
+  margin-left: 35px;
+  transition: .3s;
+}
+.our-services-img {
+  float: left;
+  margin-left: -36px;
+  margin-right: 22px;
+  margin-top: 28px;
+}
+.our-services-text {
+  padding-right: 10px;
+}
+.our-services-text {
+  overflow: hidden;
+  padding: 28px 0 25px;
+}
+.our-services-text h4 {
+  color: #222222;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  padding-bottom: 10px;
+  position: relative;
+  text-transform: uppercase;
+}
+.our-services-text h4::before {
+  background: #ec6d48 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  position: absolute;
+  width: 35px;
+}
+.our-services-wrapper:hover .services-inner {
+  background: #fff none repeat scroll 0 0;
+  border: 2px solid transparent;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.our-services-text p {
+  margin-bottom: 0;
+}
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #666;
+  margin-bottom: 15px;
+}
+.title_services{
+  margin-bottom: 5%;
+  margin-top: 2%;
+  text-align: center;
+  
+}
