@@ -1,282 +1,321 @@
-* {
-  box-sizing: border-box;
-}
-body {
-  font-size: 14px;
-}
-.main_mother_container {
-  width: 100%;
-  height: 1672px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.main_nav_container1{
-background-color: rgb(228, 85, 85);
-height: 175px;
-width: 100%;
-}
-.logo_box {
-  width: 109px;
-  height: 112px;
-  background: rgba(34,63,217,1);
-  opacity: 1;
-  position: absolute;
-  top: 33px;
-  left: 129px;
-  border-radius: 50%;
-}
-.logo_title_derion {
-  width: 168px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 64px;
-  left: 240px;
-  font-family: Rubik One;
-  font-weight: Regular;
-  font-size: 40px;
-  opacity: 1;
-  text-align: center;
-}
-.logo_derion {
-  width: 123px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 13px;
-  left: 130px;
-  font-family: Rockwell;
-  font-weight: Bold;
-  font-size: 123px;
-  opacity: 1;
-  text-align: center;
-}
-.nav_home {
-  width: 58px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 66px;
-  left: 780px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-  text-decoration: none;
-}
+      
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-size: 14px;
+      }
+      .main_mother_container {
+        display: block;
+        width: 100%;
+        height: 1672px;
+        background: rgba(255,255,255,1);
+        opacity: 1;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        overflow: hidden;
+      }
+      .main_nav_container1{
+      background-color: white;
+      height: 175px;
+      width: 100%;
+      }
+      .logo_box {
+        width: 109px;
+        height: 112px;
+        background: rgba(34,63,217,1);
+        opacity: 1;
+        position: absolute;
+        top: 33px;
+        left: 129px;
+        border-radius: 50%;
+      }
+      .logo_title_derion {
+        width: 168px;
+        color: rgba(34,63,217,1);
+        position: absolute;
+        top: 66px;
+        left: 240px;
+        font-family: Rubik One;
+        font-weight: Regular;
+        font-size: 40px;
+        opacity: 1;
+        text-align: center;
+      }
+      .logo_derion {
+        width: 123px;
+        color: rgba(255,255,255,1);
+        position: absolute;
+        top: 3px;
+        left: 130px;
+        font-family: Rockwell;
+        font-weight: Bold;
+        font-size: 123px;
+        opacity: 1;
+        text-align: center;
+      }
+      .nav_home {
+        width: 58px;
+        color: rgba(34,63,217,1);
+        position: absolute;
+        top: 66px;
+        left: 780px;
+        font-family: Roboto;
+        font-weight: Bold;
+        font-size: 20px;
+        opacity: 1;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      .nav_signin{
+        width: 81px;
+        color: rgba(34,63,217,1);
+        position: absolute;
+        top: 95px;
+        left: 858px;
+        font-family: Roboto;
+        font-weight: SemiBold;
+        font-size: 17px;
+        opacity: 1;
+        text-align: center;
+        cursor: pointer;
+      
+      }
+      .nav_signup {
+        width: 107px;
+        color: rgba(34,63,217,1);
+        position: absolute;
+        top: 95px;
+        left: 940px;
+        font-family: Roboto;
+        font-weight: SemiBold;
+        font-size: 17px;
+        opacity: 1;
+        text-align: center;
+        cursor: pointer;
+      }
+      .nav_aboutUs {
+        width: 107px;
+        color: rgba(34,63,217,1);
+        position: absolute;
+        top: 66px;
+        left: 845px;
+        font-family: Roboto;
+        font-weight: Bold;
+        font-size: 20px;
+        opacity: 1;
+        text-align: center;
+        text-decoration: none;
+      }
+      .nav_siteMap {
+        width: 98px;
+        color: rgba(34,63,217,1);
+        position: absolute;
+        top: 66px;
+        left: 952px;
+        font-family: Roboto;
+        font-weight: Bold;
+        font-size: 20px;
+        opacity: 1;
+        text-align: center;
+        text-decoration: none;
+      }
+      .nav_contactUs {
+        width: 133px;
+        color: rgba(34,63,217,1);
+        position: absolute;
+        top: 66px;
+        left: 1050px;
+        font-family: Roboto;
+        font-weight: Bold;
+        font-size: 20px;
+        opacity: 1;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      .nav_logOut{
+        width: 107px;
+        color: rgba(34,63,217,1);
+        position: absolute;
+        top: 99px;
+        left: 900px;
+        font-family: Roboto;
+        font-weight: SemiBold;
+        font-size: 17px;
+        opacity: 1;
+        text-align: center;
+      
+      }
+      .main_container2 {
+        float: left;
+        margin-top: 50px;
+        width: 50%;
+        height: 300px;
+        background: url("../images/ourstory.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        overflow: hidden;
+       
+      }
+      
+      .main_container3{
+        float: right;
+        margin-top: 50px;
+        width: 50%;
+        height: 300px;
+        background: white;
+        opacity: 1;
+        
+       
+       
+      }
+      
+      .main_article1 {
+        top: 80px;
+        position: relative;
+        width: 50%;
+        color:  rgba(53,49,242,1);;
+        font-family: Roboto;
+        font-size: 16px;
+        opacity: 1;
+        
+      } 
+      
+      
+      .main_container4 {
+        float: left;
+        margin-top: 50px;
+        width: 50%;
+        height: 300px;
+        background:white;
+        opacity: 2;
+        overflow: hidden;
+        text-align: center;
+      }
+      
+      
+      .main_container5 {
+        float: right;
+        margin-top: 50px;
+        width: 50%;
+        height: 300px;
+        background: url("../images/mission.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        overflow: hidden;
+        justify-self: left;
+      
+       
+      }
+      .main_article2 {
+        top: 80px;
+        position: relative;
+        color: rgba(53,49,242,1);;
+        font-family: Roboto;
+        font-size: 16px;
+        opacity: 1;  
+      }
+      .main_container6 {
+        float: left;
+        margin-top: 50px;
+        width: 50%;
+        height: 300px;
+        background: url("../images/vision.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        opacity: 1;
+        overflow: hidden;
+        justify-content: center;
+      }
+      
+      .main_container7{
+        float: right;
+        margin-top: 50px;
+        width: 50%;
+        height: 300px;
+        background: white;
+        opacity: 1;
+        overflow: hidden;
+        text-align: center;
+       
+      }
+      
+      .main_article3 {
+        top: 80px;
+        position: relative;
+        width: 85%;
+        color:  rgba(53,49,242,1);
+        font-family: Roboto;
+        font-size: 16px;
+        opacity: 1;  
+      }
+      .main_footer{
+        width: 100%;
+        height: 121px;
+        background: rgba(255,255,255,1);
+        opacity: 1;
+        top: 1551px;
+        left: 0px;
+        overflow: hidden;
+      
+      }
+      .footer_info {
+        width: 568px;
+        color: rgba(34,63,217,1);
+        position: absolute;
+        top: 1604px;
+        left: 436px;
+        font-family: Inter;
+        font-weight: Bold;
+        font-size: 14px;
+        opacity: 1;
+        text-align: left;  
+      }
+      
+    
+      /* -------- UP--MAIN INDEX.CSS FILE -----------*/
+      /* -------- FORM .CSS -----------*/
 
-.nav_signin{
-  width: 81px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 95px;
-  left: 858px;
-  font-family: Roboto;
-  font-weight: SemiBold;
-  font-size: 17px;
-  opacity: 1;
-  text-align: center;
-  cursor: pointer;
+      .content-section{
+        width:90%;
+        height:40%;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 0 auto;
+       
+      }
 
-}
-.nav_signup {
-  width: 107px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 95px;
-  left: 940px;
-  font-family: Roboto;
-  font-weight: SemiBold;
-  font-size: 17px;
-  opacity: 1;
-  text-align: center;
-  cursor: pointer;
-}
-.nav_aboutUs {
-  width: 107px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 66px;
-  left: 845px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-  text-decoration: none;
-}
-.nav_siteMap {
-  width: 98px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 66px;
-  left: 952px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-  text-decoration: none;
-}
-.nav_contactUs {
-  width: 133px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 66px;
-  left: 1050px;
-  font-family: Roboto;
-  font-weight: Bold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-  text-decoration: none;
-}
-
-.nav_logOut{
-  width: 107px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 99px;
-  left: 900px;
-  font-family: Roboto;
-  font-weight: SemiBold;
-  font-size: 17px;
-  opacity: 1;
-  text-align: center;
-
-}
-.main_container2 {
-  display: block;
-  width: 50%;
-  height: 300px;
-  margin-top: 10px;
-  background: url("../images/v21_6.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  overflow: hidden;
-  justify-content: center;
-}
-
-.main_container3{
-  
-  width: 50%;
-  height: 150px;
-  background: rgba(53,49,242,1);
-  opacity: 1;
- 
- 
-}
-.main_article_title1 {
-  
-  color: rgba(255,255,255,1);
-  font-family: Roboto;
-  font-weight: Bolder;
-  font-size: 30px;
-  opacity: 1;
-
-  justify-content: center;
-
-}
-.main_article1 {
-
-  width: 85%;
-  color: rgba(255,255,255,1);
-  font-family: Roboto;
-  font-size: 14px;
-  opacity: 1;
-}
-
-
-.main_container4 {
-  width: 50%;
-  height: 260px;
-  background: url("../images/v35_11.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  overflow: hidden;
-  justify-self: left;
-}
-
-
-.main_container5 {
-  display: block ;
-  width: 50%;
-  height: 150px;
-  background: rgba(53,49,242,1);
-  opacity: 1;
-  overflow: hidden;
-  text-align: center;
- 
-}
-
-.main_article_title2 {
-  position: relative;
-  color: rgba(255,255,255,1);
-  font-family: Roboto;
-  font-weight: Bolder;
-  font-size: 30px;
-  opacity: 1;
-  top: 30px;
-  justify-content: center;
-}
-.main_article2 {
-  position: relative;
-  width: 85%;
-  color: rgba(255,255,255,1);
-  font-family: Roboto;
-  font-size: 14px;
-  opacity: 1;  
-}
-.main_container6 {
-
-  width: 50%;
-  height: 300px;
-  background: url("../images/v21_6.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  overflow: hidden;
-  justify-content: center;
-}
-
-.main_container7{
-  
-  width: 50%;
-  height: 150px;
-  background: rgba(53,49,242,1);
-  opacity: 1;
- 
- 
-}
-.main_footer{
-
-  width: 100%;
-  height: 121px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  top: 1551px;
-  left: 0px;
-  overflow: hidden;
-
-}
-.footer_info {
-  width: 568px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 1604px;
-  left: 436px;
-  font-family: Inter;
-  font-weight: Bold;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-  
-}
-/* -------- UP--MAIN INDEX.CSS FILE -----------*/
+      h1,h2,h3 {
+        margin:0 0 35px 0;
+        font-family: 'Patua One', cursive;
+        text-transform: uppercase;
+        letter-spacing:1px;
+      }
+      
+      p{
+        margin:0 0 px;
+        font-size:18px;
+        line-height:1.6em;
+      }
+      a{
+        color:#26a5d3;
+      }
+      a:hover,a:focus{
+        text-decoration:none;
+        color:#26a5d3;
+      }
+      
+      #contact{
+        background:#333333;
+        color:#f4f4f4;
+        padding-bottom:40px;
+        padding-top: 40px;
+      }
+      

@@ -763,11 +763,12 @@ body {
   color: rgb(35, 75, 186);
   font-size: 18px;
   font-family: sans-serif;
-  background-color: rgb(85, 171, 225);
+  background-color: rgb(66, 131, 172);
   padding: 10px;
   padding-bottom: 50px;
   padding-left: 25px;
   text-justify: auto;  
+  border-radius: 2%;
 }
 u {
   padding-left: 10px;

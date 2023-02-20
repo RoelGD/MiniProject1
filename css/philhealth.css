@@ -34,24 +34,25 @@ width: 100%;
   color: rgba(34,63,217,1);
   position: absolute;
   top: 64px;
-  left: 230px;
+  left: 240px;
   font-family: Rubik One;
   font-weight: Regular;
   font-size: 40px;
   opacity: 1;
   text-align: center;
 }
-span.logo_derion {
+.logo_derion {
   width: 123px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 8px;
-  left: 115px;
+  top: 13px;
+  left: 130px;
   font-family: Rockwell;
   font-weight: Bold;
   font-size: 123px;
   opacity: 1;
   text-align: center;
+
 }
 .nav_home {
   width: 58px;
@@ -437,7 +438,7 @@ span.logo_derion {
   padding: 0px 15px;
   border: 1px solid white;
 }
- /*-------------------*/
+/* -------- UP--MAIN INDEX.CSS FILE -----------*/
 
 
 
@@ -570,7 +571,7 @@ span.logo_derion {
   display:flex;
   width: 238px;
   height: 209px;
-  background: url("../images/v34_4.png");
+  background: url("../images/v34_2.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -911,7 +912,6 @@ span.logo_derion {
   overflow: hidden;
   justify-content: center;
   padding: auto;
-  text-decoration: none;
 }
 .save_file {
   display: block;
@@ -928,7 +928,6 @@ span.logo_derion {
   margin: auto;
   text-align: center;
   cursor: pointer;
-  text-decoration: none;
 }
 
 /*---------------POP UP FORM----------------------*/

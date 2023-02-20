@@ -30,28 +30,28 @@ width: 100%;
   border-radius: 50%;
 }
 .logo_title_derion {
-  width: 168px;
-  color: rgba(34,63,217,1);
-  position: absolute;
-  top: 70px;
-  left: 248px;
-  font-family: Rubik One;
-  font-weight: Regular;
-  font-size: 40px;
-  opacity: 1;
-  text-align: center;
+width: 168px;
+color: rgba(34,63,217,1);
+position: absolute;
+top: 64px;
+left: 240px;
+font-family: Rubik One;
+font-weight: Regular;
+font-size: 40px;
+opacity: 1;
+text-align: center;
 }
 .logo_derion {
-  width: 123px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 16px;
-  left: 125px;
-  font-family: Rockwell;
-  font-weight: Bold;
-  font-size: 123px;
-  opacity: 1;
-  text-align: center;
+width: 123px;
+color: rgba(255,255,255,1);
+position: absolute;
+top: 13px;
+left: 130px;
+font-family: Rockwell;
+font-weight: Bold;
+font-size: 123px;
+opacity: 1;
+text-align: center;
 }
 .nav_home {
   width: 58px;
